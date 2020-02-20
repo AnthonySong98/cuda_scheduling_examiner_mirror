@@ -1,0 +1,13 @@
+{
+"scenario_name": "Blocking at end test (counter spin)",
+"benchmark_name": "Counter Spin",
+"label": "Kernel 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 19933,
+"TID": 20043,
+"times": [{},
+{"copy_in_times": [0.524584952,0.524585505], "execute_times": [0.524586009,0.875701815], "copy_out_times": [0.875702452,0.875722722], "cpu_times": [0.524584952,0.875722722]},
+{"kernel_name": "CounterSpin", "block_count": 9, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.524586592, 0.524607504, 0.875701152], "block_times": [0.524614861,0.874504011,0.524614861,0.873580875,0.524614861,0.873578699,0.524614861,0.875700522,0.524614861,0.873580555,0.524614861,0.873619371,0.524614861,0.874504011,0.524614861,0.873580875,0.524614861,0.873578699], "block_smids": [0,2,4,6,8,10,12,14,16], "cpu_core": 1}
+]}

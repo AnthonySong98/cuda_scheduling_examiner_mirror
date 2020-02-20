@@ -1,0 +1,21 @@
+{
+"scenario_name": "GPU In-order walk, CPU interference",
+"benchmark_name": "In-order Walk",
+"label": "In-order walk kernel",
+"max_resident_threads": 163840,
+"data_size": 268435456,
+"release_time": 0.000000,
+"PID": 20138,
+"TID": 20175,
+"times": [{},
+{"copy_in_times": [5.518713533,5.518714166], "execute_times": [5.518714666,5.518953677], "copy_out_times": [5.518954314,5.519040957], "cpu_times": [5.518713533,5.519040957]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [5.518727226, 5.518844893, 5.518953070], "block_times": [5.518995162,5.519093820], "block_smids": [0], "cpu_core": 1},
+{"copy_in_times": [5.519063317,5.519063820], "execute_times": [5.519064328,5.519154817], "copy_out_times": [5.519155314,5.519179716], "cpu_times": [5.519063317,5.519179716]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [5.519064882, 5.519071385, 5.519154304], "block_times": [5.519221150,5.519299168], "block_smids": [0], "cpu_core": 1},
+{"copy_in_times": [5.519187139,5.519187647], "execute_times": [5.519188149,5.519277441], "copy_out_times": [5.519277941,5.519298754], "cpu_times": [5.519187139,5.519298754]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [5.519188681, 5.519193582, 5.519276916], "block_times": [5.519343713,5.519421602], "block_smids": [0], "cpu_core": 1},
+{"copy_in_times": [5.519305252,5.519305757], "execute_times": [5.519306257,5.519395775], "copy_out_times": [5.519396279,5.519416709], "cpu_times": [5.519305252,5.519416709]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [5.519306767, 5.519311758, 5.519395265], "block_times": [5.519461667,5.519539588], "block_smids": [0], "cpu_core": 1},
+{"copy_in_times": [5.519423139,5.519423639], "execute_times": [5.519424139,5.519512758], "copy_out_times": [5.519513262,5.519533445], "cpu_times": [5.519423139,5.519533445]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [5.519424655, 5.519429165, 5.519512245], "block_times": [5.519579077,5.519656998], "block_smids": [0], "cpu_core": 1}
+]}

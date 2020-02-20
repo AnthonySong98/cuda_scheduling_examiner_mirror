@@ -1,0 +1,11 @@
+{
+"scenario_name": "Task host example",
+"benchmark_name": "Benchmark host",
+"label": "Task host 2",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21792,
+"times": [{},
+{"copy_in_times": [5.212900585,5.212901208], "execute_times": [5.212901672,6.633783637], "copy_out_times": [6.633785644,6.633787177], "cpu_times": [5.212900585,6.633787177]}
+]}

@@ -1,0 +1,13 @@
+{
+"scenario_name": "Testing blocking: cudaMemset",
+"benchmark_name": "Sequential action execution",
+"label": "Task 3",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.400000,
+"PID": 20275,
+"TID": 20310,
+"times": [{},
+{"copy_in_times": [1.130390229,1.130391207], "execute_times": [1.130391892,3.180412934], "copy_out_times": [3.180413665,3.180441058], "cpu_times": [1.130390229,3.180441058]},
+{"kernel_name": "K3", "block_count": 2, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.330597478, 1.330839721, 0.000000000], "block_times": [2.930456971,3.180458893,2.930456971,3.180458893], "block_smids": [0,2], "cpu_core": 3}
+]}

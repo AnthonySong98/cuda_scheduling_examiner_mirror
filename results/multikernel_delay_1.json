@@ -1,0 +1,15 @@
+{
+"scenario_name": "Multikernel with delay example",
+"benchmark_name": "Multi-kernel submission",
+"label": "Stream 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 20322,
+"TID": 20356,
+"times": [{},
+{"copy_in_times": [0.685248568,0.685249364], "execute_times": [0.685250020,2.685467055], "copy_out_times": [2.685469909,2.685544163], "cpu_times": [0.685248568,2.685544163]},
+{"kernel_name": "K1", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.685250792, 0.685282242, 0.000000000], "block_times": [0.685301036,1.185307763], "block_smids": [0], "cpu_core": 1},
+{"kernel_name": "K2", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.685409327, 1.685453900, 0.000000000], "block_times": [1.685490140,2.185496866], "block_smids": [0], "cpu_core": 1},
+{"kernel_name": "K3", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.685455624, 1.685469056, 0.000000000], "block_times": [2.185498338,2.685505065], "block_smids": [0], "cpu_core": 1}
+]}

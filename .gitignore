@@ -1,5 +1,5 @@
+#results/*.json
 bin/
 obj/
-results/*.json
 *.pyc
 *.sw*

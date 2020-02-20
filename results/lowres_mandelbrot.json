@@ -1,0 +1,12 @@
+{
+"scenario_name": "64x64 mandelbrot set rendering",
+"benchmark_name": "Mandelbrot Set",
+"max_resident_threads": 163840,
+"data_size": 4096,
+"release_time": 0.000000,
+"PID": 20231,
+"TID": 20264,
+"times": [{},
+{"copy_in_times": [0.746019535,0.746020323], "execute_times": [0.746020973,0.935343699], "copy_out_times": [0.935344353,0.935371914], "cpu_times": [0.746019535,0.935371914]},
+{"kernel_name": "BasicMandelbrot", "block_count": 4, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [0.746021720, 0.746046873, 0.935342938], "block_times": [0.746059049,0.931230176,0.746059049,0.934769162,0.746059017,0.935346956,0.746059049,0.932478500], "block_smids": [0,2,4,6], "cpu_core": 41}
+]}

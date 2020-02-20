@@ -1,0 +1,16 @@
+{
+"scenario_name": "Concurrency during 1st kernel test",
+"benchmark_name": "Multi-kernel submission",
+"label": "Multiple kernels",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.600000,
+"PID": 20089,
+"TID": 20127,
+"times": [{},
+{"copy_in_times": [1.510215559,1.510217251], "execute_times": [1.510218658,2.510673216], "copy_out_times": [2.510673729,2.510722619], "cpu_times": [1.510215559,2.510722619]},
+{"kernel_name": "K3-1", "block_count": 1, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [1.510251607, 1.510406233, 0.000000000], "block_times": [1.510478466,1.760488388], "block_smids": [2], "cpu_core": 3},
+{"kernel_name": "K3-2", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.510407793, 1.510423252, 0.000000000], "block_times": [1.760489796,2.010499653], "block_smids": [2], "cpu_core": 3},
+{"kernel_name": "K3-3", "block_count": 1, "thread_count": 256, "shared_memory": 0, "cuda_launch_times": [1.510424741, 1.510435031, 0.000000000], "block_times": [2.010501157,2.260511015], "block_smids": [2], "cpu_core": 3},
+{"kernel_name": "K3-4", "block_count": 1, "thread_count": 128, "shared_memory": 0, "cuda_launch_times": [1.510436479, 1.510449647, 0.000000000], "block_times": [2.260512807,2.510522665], "block_smids": [0], "cpu_core": 3}
+]}

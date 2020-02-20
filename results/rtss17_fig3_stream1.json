@@ -1,0 +1,15 @@
+{
+"scenario_name": "RTSS 2017 experiment - figure 3",
+"benchmark_name": "Multi-kernel submission",
+"label": "K1 through K3",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21138,
+"TID": 21172,
+"times": [{},
+{"copy_in_times": [1.177538018,1.177538569], "execute_times": [1.177539079,4.240007018], "copy_out_times": [4.240010601,4.240096689], "cpu_times": [1.177538018,4.240096689]},
+{"kernel_name": "K1", "block_count": 6, "thread_count": 768, "shared_memory": 0, "cuda_launch_times": [1.177540076, 1.177577087, 0.000000000], "block_times": [1.177595583,2.177599157,1.177595551,2.177599093,1.177595551,2.177599157,1.177595583,2.177599157,1.177595551,2.177599125,1.177595551,2.177599093], "block_smids": [0,2,4,6,8,10], "cpu_core": 1},
+{"kernel_name": "K2", "block_count": 2, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.177577690, 1.177583808, 0.000000000], "block_times": [2.177600661,3.177604202,2.177600629,3.177604170], "block_smids": [0,2], "cpu_core": 1},
+{"kernel_name": "K3", "block_count": 2, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [1.177606826, 1.177611373, 0.000000000], "block_times": [3.219653692,4.219657266,3.219653660,4.219657234], "block_smids": [0,2], "cpu_core": 1}
+]}

@@ -1,0 +1,13 @@
+{
+"scenario_name": "Greedy scheduling test",
+"benchmark_name": "Timer Spin",
+"label": "Small job (released third)",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.500000,
+"PID": 20754,
+"TID": 20790,
+"times": [{},
+{"copy_in_times": [1.287540724,1.287542122], "execute_times": [1.287543302,1.787599992], "copy_out_times": [1.787600782,1.787628271], "cpu_times": [1.287540724,1.787628271]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.287544821, 1.287591761, 1.787595282], "block_times": [1.287609900,1.787612491], "block_smids": [34], "cpu_core": 3}
+]}

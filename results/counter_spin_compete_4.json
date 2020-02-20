@@ -1,0 +1,12 @@
+{
+"scenario_name": "Multiprocess competition",
+"benchmark_name": "Counter Spin",
+"label": "Kernel 4",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.030000,
+"PID": 20448,
+"times": [{},
+{"copy_in_times": [2.269856473,2.269858185], "execute_times": [2.269859609,2.621413641], "copy_out_times": [2.621414392,2.621442539], "cpu_times": [2.269856473,2.621442539]},
+{"kernel_name": "CounterSpin", "block_count": 1, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [2.269861449, 2.269921667, 2.621412745], "block_times": [2.278696460,2.621432433], "block_smids": [0], "cpu_core": 4}
+]}

@@ -1,0 +1,13 @@
+{
+"scenario_name": "Stream priority lower priority kernel cut-ahead test",
+"benchmark_name": "Timer Spin",
+"label": "Kernel 7",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.600000,
+"PID": 21561,
+"TID": 21601,
+"times": [{},
+{"copy_in_times": [1.629412507,1.629414169], "execute_times": [1.629415561,2.629473948], "copy_out_times": [2.629474730,2.629500689], "cpu_times": [1.629412507,2.629500689]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.629417366, 1.629473014, 2.629471583], "block_times": [1.629494448,2.629498685], "block_smids": [12], "cpu_core": 7}
+]}

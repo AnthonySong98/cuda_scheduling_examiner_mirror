@@ -1,0 +1,14 @@
+{
+"scenario_name": "Kernel ordering with NULL stream",
+"benchmark_name": "Multi-kernel submission",
+"label": "Kernels 3 and 4",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.400000,
+"PID": 20658,
+"TID": 20694,
+"times": [{},
+{"copy_in_times": [1.071289551,1.071291191], "execute_times": [1.071292596,4.671254023], "copy_out_times": [4.671257407,5.671229441], "cpu_times": [1.071289551,5.671229441]},
+{"kernel_name": "K3", "block_count": 4, "thread_count": 256, "shared_memory": 0, "cuda_launch_times": [1.071294293, 1.071341716, 0.000000000], "block_times": [2.671297593,3.671311191,2.671297561,3.671311191,2.671297593,3.671311159,2.671297561,3.671311191], "block_smids": [0,2,4,6], "cpu_core": 3},
+{"kernel_name": "K4", "block_count": 4, "thread_count": 256, "shared_memory": 0, "cuda_launch_times": [1.071343231, 1.071356399, 0.000000000], "block_times": [3.671314871,4.671328437,3.671314871,4.671328469,3.671314871,4.671328437,3.671314871,4.671328469], "block_smids": [0,2,4,6], "cpu_core": 3}
+]}

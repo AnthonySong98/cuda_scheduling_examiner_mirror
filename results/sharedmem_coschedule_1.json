@@ -1,0 +1,13 @@
+{
+"scenario_name": "Basic shared-memory coscheduling test",
+"benchmark_name": "Timer Spin (shared memory)",
+"label": "Kernel 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21373,
+"TID": 21406,
+"times": [{},
+{"copy_in_times": [0.822075642,0.822076331], "execute_times": [0.822077002,1.322112761], "copy_out_times": [1.322113561,1.322142415], "cpu_times": [0.822075642,1.322142415]},
+{"kernel_name": "SharedMem_GPUSpin", "block_count": 2, "thread_count": 128, "shared_memory": 32768, "cuda_launch_times": [0.822077772, 0.822108955, 1.322111829], "block_times": [0.822131446,1.322140755,0.822131414,1.322140787], "block_smids": [0,2], "cpu_core": 1}
+]}

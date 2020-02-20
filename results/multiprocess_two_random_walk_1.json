@@ -1,0 +1,12 @@
+{
+"scenario_name": "Multiprocess vs. multithread comparison (memory intensive)",
+"benchmark_name": "Random Walk",
+"label": "Process 1",
+"max_resident_threads": 163840,
+"data_size": 16777216,
+"release_time": 0.000000,
+"PID": 20549,
+"times": [{},
+{"copy_in_times": [1.219149515,1.219150173], "execute_times": [1.219150801,1.220495020], "copy_out_times": [1.220495652,1.220536324], "cpu_times": [1.219149515,1.220536324]},
+{"kernel_name": "WalkKernel", "block_count": 1, "thread_count": 32, "shared_memory": 0, "cuda_launch_times": [1.219151698, 1.219168877, 1.220494291], "block_times": [1.219930296,1.220503706], "block_smids": [0], "cpu_core": 1}
+]}

@@ -1,0 +1,13 @@
+{
+"scenario_name": "Default stream blocking test",
+"benchmark_name": "Timer Spin (default stream)",
+"label": "Kernel A (default stream)",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21849,
+"TID": 21882,
+"times": [{},
+{"copy_in_times": [0.774881707,0.774882396], "execute_times": [0.774883053,0.774909369], "copy_out_times": [0.774910020,1.274923237], "cpu_times": [0.774881707,1.274923237]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 256, "shared_memory": 0, "cuda_launch_times": [0.774883837, 0.774908460, 0.000000000], "block_times": [0.774944180,1.274961427], "block_smids": [0], "cpu_core": 1}
+]}

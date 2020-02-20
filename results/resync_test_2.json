@@ -1,0 +1,17 @@
+{
+"scenario_name": "Resync iterations test",
+"benchmark_name": "Timer Spin",
+"label": "512 threads, 0.25s",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21895,
+"TID": 21929,
+"times": [{},
+{"copy_in_times": [0.712931641,0.712932336], "execute_times": [0.712932996,0.963021467], "copy_out_times": [0.963022698,0.963084477], "cpu_times": [0.712931641,0.963084477]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.712933871, 0.713003669, 0.963019556], "block_times": [0.713028804,0.963035153], "block_smids": [2], "cpu_core": 12},
+{"copy_in_times": [1.213007880,1.213008665], "execute_times": [1.213009130,1.463115898], "copy_out_times": [1.463125553,1.463367752], "cpu_times": [1.213007880,1.463367752]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.213009712, 1.213040650, 1.463110934], "block_times": [1.213081759,1.463088108], "block_smids": [2], "cpu_core": 12},
+{"copy_in_times": [1.713071136,1.713071954], "execute_times": [1.713072536,1.963154687], "copy_out_times": [1.963155181,1.963177871], "cpu_times": [1.713071136,1.963177871]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [1.713073076, 1.713149458, 1.963154114], "block_times": [1.713207419,1.963213736], "block_smids": [2], "cpu_core": 12}
+]}

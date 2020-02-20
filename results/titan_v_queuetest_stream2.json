@@ -1,0 +1,13 @@
+{
+"scenario_name": "Titan V primary queue/stream test",
+"benchmark_name": "Timer Spin",
+"label": "K2, should run with K1's last block & K4",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.100000,
+"PID": 21940,
+"TID": 21974,
+"times": [{},
+{"copy_in_times": [0.729207404,0.729209174], "execute_times": [0.729210597,1.629165701], "copy_out_times": [1.629168812,1.629259713], "cpu_times": [0.729207404,1.629259713]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [0.729212458, 0.729275395, 1.629163459], "block_times": [1.129183198,1.629197038], "block_smids": [0], "cpu_core": 2}
+]}

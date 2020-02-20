@@ -1,0 +1,13 @@
+{
+"scenario_name": "Cutting ahead test",
+"benchmark_name": "Timer Spin",
+"label": "Released second",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.250000,
+"PID": 21233,
+"TID": 21268,
+"times": [{},
+{"copy_in_times": [0.861036024,0.861036933], "execute_times": [0.861037684,1.361067360], "copy_out_times": [1.361067878,1.361091464], "cpu_times": [0.861036024,1.361091464]},
+{"kernel_name": "GPUSpin", "block_count": 2, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [0.861038665, 0.861063571, 1.361066775], "block_times": [0.861086001,1.361093701,0.861086001,1.361093701], "block_smids": [14,16], "cpu_core": 2}
+]}

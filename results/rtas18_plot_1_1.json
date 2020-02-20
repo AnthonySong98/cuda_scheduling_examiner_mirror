@@ -1,0 +1,13 @@
+{
+"scenario_name": "Unexpected blocking",
+"benchmark_name": "Timer Spin",
+"label": "Kernel 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 21091,
+"TID": 21125,
+"times": [{},
+{"copy_in_times": [0.648062989,0.648063697], "execute_times": [0.648064362,0.948101648], "copy_out_times": [0.948102287,0.948126026], "cpu_times": [0.648062989,0.948126026]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.648065104, 0.648093811, 0.948100949], "block_times": [0.648110891,0.948114693], "block_smids": [0], "cpu_core": 1}
+]}

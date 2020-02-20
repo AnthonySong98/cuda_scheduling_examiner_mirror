@@ -1,0 +1,13 @@
+{
+"scenario_name": "Testing blocking: cudaMemset",
+"benchmark_name": "Timer Spin",
+"label": "Task 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 20275,
+"TID": 20308,
+"times": [{},
+{"copy_in_times": [0.730281619,0.730282305], "execute_times": [0.730282964,1.730317111], "copy_out_times": [1.730317792,2.930423737], "cpu_times": [0.730281619,2.930423737]},
+{"kernel_name": "GPUSpin", "block_count": 2, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.730283743, 0.730310860, 1.730315443], "block_times": [0.730328186,1.730335396,0.730328186,1.730335460], "block_smids": [0,2], "cpu_core": 1}
+]}

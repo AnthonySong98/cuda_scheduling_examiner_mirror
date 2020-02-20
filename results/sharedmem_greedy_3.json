@@ -1,0 +1,13 @@
+{
+"scenario_name": "Static Shared-Memory Greedy scheduling test",
+"benchmark_name": "Timer Spin (shared memory)",
+"label": "Small job (released third)",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.500000,
+"PID": 21468,
+"TID": 21503,
+"times": [{},
+{"copy_in_times": [1.295167838,1.295169498], "execute_times": [1.295170907,1.795236210], "copy_out_times": [1.795236800,1.795264660], "cpu_times": [1.295167838,1.795264660]},
+{"kernel_name": "SharedMem_GPUSpin", "block_count": 1, "thread_count": 128, "shared_memory": 16384, "cuda_launch_times": [1.295172736, 1.295229198, 1.795232155], "block_times": [1.295261010,1.795268797], "block_smids": [34], "cpu_core": 3}
+]}

@@ -1,0 +1,13 @@
+{
+"scenario_name": "Block distribution test 2 (larger first)",
+"benchmark_name": "Timer Spin",
+"label": "Small job",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.250000,
+"PID": 20937,
+"TID": 20970,
+"times": [{},
+{"copy_in_times": [0.966826504,0.966828144], "execute_times": [0.966829558,1.966876070], "copy_out_times": [1.966876692,1.966913765], "cpu_times": [0.966826504,1.966913765]},
+{"kernel_name": "GPUSpin", "block_count": 6, "thread_count": 512, "shared_memory": 0, "cuda_launch_times": [0.966831364, 0.966874717, 1.966873869], "block_times": [0.966891983,1.966900965,0.966892015,1.966901029,0.966892015,1.966900997,0.966891983,1.966900933,0.966892015,1.966900997,0.966891791,1.966900773], "block_smids": [2,4,6,8,10,12], "cpu_core": 1}
+]}

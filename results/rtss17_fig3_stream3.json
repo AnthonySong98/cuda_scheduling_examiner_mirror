@@ -1,0 +1,13 @@
+{
+"scenario_name": "RTSS 2017 experiment - figure 3",
+"benchmark_name": "Multi-kernel submission",
+"label": "K5",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.400000,
+"PID": 21138,
+"TID": 21174,
+"times": [{},
+{"copy_in_times": [1.577667292,1.577667909], "execute_times": [1.577668394,2.598063635], "copy_out_times": [2.598064220,2.598100038], "cpu_times": [1.577667292,2.598100038]},
+{"kernel_name": "K5", "block_count": 2, "thread_count": 256, "shared_memory": 32768, "cuda_launch_times": [1.577671498, 1.577697992, 0.000000000], "block_times": [1.577719663,2.577723204,1.577719663,2.577723204], "block_smids": [20,22], "cpu_core": 3}
+]}

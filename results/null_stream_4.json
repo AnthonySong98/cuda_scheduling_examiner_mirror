@@ -1,0 +1,13 @@
+{
+"scenario_name": "Kernel ordering with NULL stream",
+"benchmark_name": "Timer Spin (default stream)",
+"label": "Kernel 5 (NULL stream)",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.600000,
+"PID": 20658,
+"TID": 20695,
+"times": [{},
+{"copy_in_times": [1.271370358,1.271372051], "execute_times": [1.271373461,1.271552502], "copy_out_times": [1.271553937,5.671243744], "cpu_times": [1.271370358,5.671243744]},
+{"kernel_name": "GPUSpin", "block_count": 1, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [1.271379291, 1.271550825, 0.000000000], "block_times": [4.671330581,5.671344243], "block_smids": [0], "cpu_core": 4}
+]}

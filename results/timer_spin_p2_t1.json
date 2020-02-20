@@ -1,0 +1,13 @@
+{
+"scenario_name": "Task host example",
+"benchmark_name": "Timer Spin",
+"label": "Process 2, Task 1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.250000,
+"PID": 21792,
+"TID": 21833,
+"times": [{},
+{"copy_in_times": [1.247324152,1.247325741], "execute_times": [1.247327156,1.747478508], "copy_out_times": [1.747478991,1.747512669], "cpu_times": [1.247324152,1.747512669]},
+{"kernel_name": "GPUSpin", "block_count": 2, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [1.247328927, 1.247427881, 1.747477948], "block_times": [1.248744814,1.749314474,1.248744814,1.749314442], "block_smids": [4,6], "cpu_core": 3}
+]}
