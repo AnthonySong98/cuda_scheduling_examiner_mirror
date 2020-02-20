@@ -3,3 +3,4 @@ bin/
 obj/
 *.pyc
 *.sw*
+.DS_Store

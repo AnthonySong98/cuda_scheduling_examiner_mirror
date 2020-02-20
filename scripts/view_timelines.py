@@ -298,6 +298,7 @@ def plot_scenario(benchmarks, name):
         axes.set_ylabel("# threads,\n" + label)
     # Add the X label below the bottommost subplot
     axes.set_xlabel("Time (seconds)")
+    plot.savefig("./vis/"+str(name).replace('/','_').replace(' ','_')+"_timeline.pdf")
     return figure
 
 def show_plots(filenames):
@@ -317,7 +318,7 @@ def show_plots(filenames):
     figures = []
     for scenario in scenarios:
         figures.append(plot_scenario(scenarios[scenario], scenario))
-    plot.show()
+    #plot.show()
 
 if __name__ == "__main__":
     base_directory = "./results"
