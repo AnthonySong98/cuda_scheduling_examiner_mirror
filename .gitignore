@@ -4,3 +4,4 @@ obj/
 *.pyc
 *.sw*
 .DS_Store
+.vscode

@@ -1,0 +1,12 @@
+{
+"scenario_name": "Block 2, Thread 1024",
+"benchmark_name": "Counter Spin",
+"max_resident_threads": 163840,
+"data_size": 1000000,
+"release_time": 0.000000,
+"PID": 46347,
+"TID": 46513,
+"times": [{},
+{"copy_in_times": [1.251186017,1.251186699], "execute_times": [1.251187349,2.634233274], "copy_out_times": [2.634236735,2.634312899], "cpu_times": [1.251186017,2.634312899]},
+{"kernel_name": "CounterSpin", "block_count": 2, "thread_count": 1024, "shared_memory": 0, "cuda_launch_times": [1.251188093, 1.251215959, 2.634228760], "block_times": [1.251260991,2.634293583,1.251260959,2.631173827], "block_smids": [0,2], "cpu_core": 26}
+]}

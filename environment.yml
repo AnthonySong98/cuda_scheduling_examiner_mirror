@@ -1,0 +1,8 @@
+name: gpu-scheduling
+dependencies:
+    - python=2.7
+    - pip
+    - matplotlib=2.2.0
+    - cudatoolkit=10.0
+    - pip:
+        - poetry==1.0.0
