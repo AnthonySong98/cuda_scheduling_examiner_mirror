@@ -1,0 +1,13 @@
+{
+"scenario_name": "B4",
+"benchmark_name": "Multi-kernel submission",
+"label": "K1",
+"max_resident_threads": 163840,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 3585,
+"TID": 3618,
+"times": [{},
+{"copy_in_times": [0.743855740,0.743856645], "execute_times": [0.743857299,1.743908188], "copy_out_times": [1.743914758,1.743987088], "cpu_times": [0.743855740,1.743987088]},
+{"kernel_name": "K1", "block_count": 4, "thread_count": 1, "shared_memory": 0, "cuda_launch_times": [0.743858071, 0.743886394, 0.000000000], "block_times": [0.743899990,1.743903923,0.743899958,1.743903923,0.743899990,1.743903923,0.743899990,1.743903987], "block_smids": [0,2,4,6], "cpu_core": 1}
+]}
