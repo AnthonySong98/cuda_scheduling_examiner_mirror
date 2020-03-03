@@ -1,0 +1,77 @@
+{
+    "name": "Three Streams",
+    "max_iterations": 1,
+    "max_time": 0,
+    "cuda_device": 0,
+    "pin_cpus": true,
+    "benchmarks": [
+        {
+            "filename": "./bin/multikernel.so",
+            "log_name": "test3_stream1.json",
+            "label": "K1 and K2",
+            "thread_count": 0,
+            "block_count": 0,
+            "data_size": 0,
+            "additional_info": [
+                {
+                    "kernel_label": "K1",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1
+                },
+                {
+                    "kernel_label": "K2",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1
+                }
+            ]
+        },
+        {
+            "filename": "./bin/multikernel.so",
+            "log_name": "test3_stream2.json",
+            "label": "K3 and K4",
+            "thread_count": 0,
+            "block_count": 0,
+            "data_size": 0,
+            "additional_info": [
+                {
+                    "kernel_label": "K3",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1,
+                    "delay": 0.2
+                },
+                {
+                    "kernel_label": "K4",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1
+                }
+            ]
+        },
+        {
+            "filename": "./bin/multikernel.so",
+            "log_name": "test3_stream3.json",
+            "label": "K5 and K6",
+            "thread_count": 0,
+            "block_count": 0,
+            "data_size": 0,
+            "additional_info": [
+                {
+                    "kernel_label": "K5",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1,
+                    "delay": 0.4
+                },
+                {
+                    "kernel_label": "K6",
+                    "duration": 1000000000,
+                    "block_count": 8,
+                    "thread_count": 1
+                }
+            ]
+        }
+    ]
+}
